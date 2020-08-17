@@ -209,13 +209,20 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+ul {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section {
   padding: 100px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 #myVideo {
@@ -423,11 +430,11 @@ img::-moz-selection {
   transition: 0.6s;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .awardLogo{
     margin-bottom: 0px !important;
   }
-} */
+}
 
 .footerCont{
   margin-top: -32px;
