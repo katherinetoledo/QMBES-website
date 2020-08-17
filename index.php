@@ -5,6 +5,7 @@ header("Expires: 0");
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124039176-1"></script>
@@ -16,6 +17,9 @@ header("Expires: 0");
     gtag('config', 'UA-124039176-1');
   </script>
 
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -160,7 +164,7 @@ header("Expires: 0");
           <div class="card text-center memberCard" style="margin-bottom:18px;">
             <div class="card-body">
               <h5 class="card-title">Want to join us?</h5>
-              <p class="normal-text">Support the society and get access to exclusive perks.</p>
+              <p class="normal-text">Support the society and get access to exclusive perks such as events and workshops.</p>
               <a href="https://www.qmsu.org/groups/qmbes/" class="btn btn-primary">Become a Member</a>
             </div>
           </div>
@@ -169,8 +173,9 @@ header("Expires: 0");
           <div class="card text-center memberCard">
             <div class="card-body">
               <h5 class="card-title">Already a member?</h5>
-              <p class="normal-text">Want to make a difference? Becoming a committee member.</p>
-              <a href="/join-committee" class="btn btn-primary">Apply for Committee</a>
+              <p class="normal-text">You can apply to be part of our 2020/2021 committee. <br><br> Positions will be open again in October/2020. Stay tuned!</p>
+              <!-- <p class="normal-text">Want to make a difference? Becoming a committee member.</p>
+              <a href="/join-committee" class="btn btn-primary">Apply for Committee</a> -->
             </div>
           </div>
         </div>
@@ -196,7 +201,7 @@ header("Expires: 0");
               <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
             </a>
           </span>
-          <h4 class="service-heading" id="facebookNo">1,000 Followers</h4>
+          <h4 class="service-heading" id="facebookNo">1,000+ Followers</h4>
           <p class="normal-text">Facebook</p>
         </div>
         <div class="col-md-4 stat">
@@ -218,14 +223,15 @@ header("Expires: 0");
       <div class="row eventsRow">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Events</h2>
-          <h3 class="normal-text">Stay tuned for new exciting events.</h3><br>
-          <!--<div id="upcoming" data-flickity='{ "cellAlign": "left", "contain": true, "groupCells": true }'>
-
-          </div> -->
-          <a href="/events" class="btn btn-primary">See all Events</a>
+          <h3 class="normal-text">Stay in the loop of our events!</h3>
+          <br>
+          <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23f8f9fa&amp;ctz=Europe%2FLondon&amp;src=YnVzaW5lc3Nzb2NpZXR5QHFtc3Uub3Jn&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;showDate=0&amp;showTabs=1&amp;hl=en_GB&amp;title=QMBES%20Calendar" style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe> 
+          <br><br>
+          <a href="/events" class="btn btn-primary">See all incoming events</a>
+          <!-- <div id="upcoming" data-flickity='{ "cellAlign": "left", "contain": true, "groupCells": true }'>
+          </div>  -->
+          
         </div>
-        <br>
-
       </div>
     </div>
   </section>
@@ -305,7 +311,7 @@ header("Expires: 0");
           </ul>
         </div>
       </div>
-      <h6 class="normal-text text-center white-text contactAddress">Copyright &copy; QMBES 2018</h6>
+      <h6 class="normal-text text-center white-text contactAddress">Copyright &copy; QMBES 2018-2020</h6>
     </div>
     </div>
   </section>
