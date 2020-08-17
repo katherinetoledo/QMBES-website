@@ -417,6 +417,18 @@ img::-moz-selection {
   }
 }
 
+.awardLogo{
+  height: 150px;
+  margin-bottom: 32px;
+  transition: 0.6s;
+}
+
+/* @media (min-width: 768px) {
+  .awardLogo{
+    margin-bottom: 0px !important;
+  }
+} */
+
 .footerCont{
   margin-top: -32px;
 }
