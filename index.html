@@ -58,32 +58,45 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/about">About</a>
+            <a class="nav-link js-scroll-trigger" style="font-weight:bold;" href="/about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/events">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/gallery">Gallery</a>
-          </li>
+          <li class="nav-item"><div class="dropdown">
+            <div class="nav-link js-scroll-trigger">Events</div>
+            <div class="dropdown-content">
+              <a class="nav-link js-scroll-trigger" href="/events">Upcoming Events</a>
+              <a class="nav-link js-scroll-trigger" href="/past-events">Past Events</a>
+              </div>
+          </div></li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/committee">Committee</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/partner">Partners</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/competition">Competition</a>
-            <!-- Temp eliminated
+          <li class="nav-item"><div class="dropdown">
+            <div class="nav-link js-scroll-trigger">Partners</div>
             <div class="dropdown-content">
-              <a class="nav-link js-scroll-trigger" href="/internships">Internship &amp; Graduate</a>
-              <a class="nav-link js-scroll-trigger" href="/partnerships">Partnerships</a>
-              <a class="nav-link js-scroll-trigger" href="/news">News &amp; Analysis</a>
-              <a class="nav-link js-scroll-trigger" href="/from-partners">From our partners</a>
-              <a class="nav-link js-scroll-trigger" href="/volunteering">Volunteering</a>
+              <a class="nav-link js-scroll-trigger" href="/partner">2020/2021 Partnerships</a>
+              <a class="nav-link js-scroll-trigger" href="/from-partners">Opportunities</a>
               </div>
-            -->
+          </div></li>
+          <li class="nav-item"><div class="dropdown">
+            <div class="nav-link js-scroll-trigger">Competition</div>
+            <div class="dropdown-content">
+              <a class="nav-link js-scroll-trigger" href="/competition">About</a>
+              <a class="nav-link js-scroll-trigger" href="/previous-competitions">Previous Competitions</a>
+              </div>
+          </div></li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gallery">Gallery</a>
           </li>
+          <!-- Temp eliminated
+          <div class="dropdown-content">
+            <a class="nav-link js-scroll-trigger" href="/internships">Internship &amp; Graduate</a>
+            <a class="nav-link js-scroll-trigger" href="/partnerships">Partnerships</a>
+            <a class="nav-link js-scroll-trigger" href="/news">News &amp; Analysis</a>
+            <a class="nav-link js-scroll-trigger" href="/from-partners">From our partners</a>
+            <a class="nav-link js-scroll-trigger" href="/volunteering">Volunteering</a>
+            </div>
+          -->
+          
           <li class="nav-item">
             <ul class="list-inline navbar-social">
               <li class="list-inline-item">
@@ -112,7 +125,6 @@
       </div>
     </div>
   </nav>
-
 
 
   <!-- Header -->
@@ -222,7 +234,9 @@
           <br>
           <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23f8f9fa&amp;ctz=Europe%2FLondon&amp;src=YnVzaW5lc3Nzb2NpZXR5QHFtc3Uub3Jn&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;showDate=0&amp;showTabs=1&amp;hl=en_GB&amp;title=QMBES%20Calendar" style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe> 
           <br><br>
-          <a href="/events" class="btn btn-primary">See all incoming events</a>
+          <a href="/events" class="btn btn-primary">See all upcoming events</a>
+          <br><br>
+          <a href="/from-partners" class="btn btn-primary">See all upcoming opportunities from our partners</a>
           <!-- <div id="upcoming" data-flickity='{ "cellAlign": "left", "contain": true, "groupCells": true }'>
           </div>  -->
           
