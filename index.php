@@ -196,6 +196,7 @@ header("Expires: 0");
       </div>
     </div>
   </section>
+  
   <!-- Statistics -->
   <section id="stats">
     <div class="container statsCont">
