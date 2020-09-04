@@ -1113,11 +1113,3 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-weight: 400;
 }
 
-
-.calendar-container {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-}
-
