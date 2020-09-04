@@ -142,6 +142,7 @@ body {
   padding-bottom: 24px;
   font-size: 14px;
   padding: 18px;
+  width: 100%;
 }
 
 .partner-section{
@@ -915,6 +916,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .committeeHeading {
   margin-bottom: 40px;
+  width: 100%;
+  align-content: center;
 }
 
 .linkedinButton {
