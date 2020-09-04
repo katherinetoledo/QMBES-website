@@ -1113,17 +1113,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-weight: 400;
 }
 
-.googleCalendar{
-  position: relative;
-  height: 0;
-  width: 50%;
-  padding-bottom: 50%;
+
+.calendar-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
 }
 
-.googleCalendar iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
