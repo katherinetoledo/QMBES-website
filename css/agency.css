@@ -229,6 +229,7 @@ ul {
 ol,li {
   margin: 5px;
   padding: 5px;
+  font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
