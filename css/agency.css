@@ -897,8 +897,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .social-footer{
-  margin-left: -32px;
-  margin-top:32px;
+  margin-left: 0px; /*if you want to include twitter icon, use -32px*/
+  margin-top: 32px;
 }
 
 .white-text{
