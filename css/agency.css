@@ -134,6 +134,13 @@ body {
 
 .partner-image{
   margin-bottom: 32px;
+  align-items: center;
+}
+
+.partner-image-brightnetwork{
+  margin-bottom: 32px;
+  margin-top: 100px;
+  align-items: center;
 }
 
 .normal-text{
@@ -1117,11 +1124,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     padding-bottom: 24px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 18px;
     width: 100%;
     line-height: 1.75;
-  }
+}
+  
+@media (min-width: 768px) {
+  .listCompet{
+    margin: 18px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    padding: 0px;
+}
 
 .responsiveCalendar {
  position: relative;
