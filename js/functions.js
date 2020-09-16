@@ -100,5 +100,3 @@ function sortByDate(json) {
     });
     return json;
 }
-
-
