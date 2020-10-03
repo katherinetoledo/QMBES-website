@@ -230,7 +230,7 @@ header("Expires: 0");
           <h3 class="normal-text">Stay in the loop of our events!</h3>
           <br>
           <div class="responsiveCalendar">
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23f8f9fa&amp;ctz=Europe%2FLondon&amp;src=cW1iZXN3ZWJAZ21haWwuY29t&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;hl=en_GB" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div> 
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23f8f9fa&amp;ctz=Europe%2FLondon&amp;src=cW1iZXN3ZWJAZ21haWwuY29t&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;hl=en_GB" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></div> 
           </div>
           <div class="col-lg-12 text-center">
             <br>
