@@ -176,7 +176,7 @@ header("Expires: 0");
           <div class="card text-center memberCard">
             <div class="card-body">
               <h5 class="card-title">Already a member?</h5>
-              <p class="normal-text">Positions for 2020/2021 committee is currently closed.<br> In Abril/2021 we will have elections for the 2021/2022 committee. Stay tuned!</p>
+              <p class="normal-text">Positions for 2020/2021 committee are currently closed.<br> In Abril/2021 we will have elections for the 2021/2022 committee. Stay tuned!</p>
               <!-- <p class="normal-text">You can apply to be part of our 2020/2021 committee. <br><br> Positions will be open again in October/2020. Stay tuned!</p> -->
               <!-- <p class="normal-text">Want to make a difference? Becoming a committee member.</p>
               <a href="/join-committee" class="btn btn-primary">Apply for Committee</a> -->
